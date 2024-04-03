@@ -1,5 +1,6 @@
 {
     "name": "Iot-main (V2 only)",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
