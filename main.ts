@@ -146,7 +146,7 @@ input.onButtonPressed(Button.A, function () {
     change_limit(-1)
 })
 function object_detected () {
-    return Environment.ReadLightIntensity(AnalogPin.P2) < 20
+    return Environment.ReadLightIntensity(AnalogPin.P2) < 10
 }
 function turnRight () {
     Send_data("motor.stop")
